@@ -134,3 +134,8 @@ void ordenarVector(eEmpleado lista[], int tam)
     }
 }
 
+void mostrarUno(eEmpleado lista[], int i)
+{
+    printf("%d-%s-%c-%.2f-%.2f\n", lista[i].legajo,lista[i].nombre, lista[i].sexo, lista[i].sueldoBruto, lista[i].sueldoNeto);
+}
+

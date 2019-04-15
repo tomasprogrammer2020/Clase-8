@@ -8,9 +8,21 @@
 	<stdlib.h>
 	"Estructuras.h"
 
-1555355636 source:c:\users\lucia\onedrive\escritorio\estructuras\estructuras.c
+1555370384 source:c:\users\lucia\onedrive\escritorio\estructuras\estructuras.c
 	"Estructuras.h"
 	<stdio.h>
 
-1555355046 c:\users\lucia\onedrive\escritorio\estructuras\estructuras.h
+1555356426 c:\users\lucia\onedrive\escritorio\estructuras\estructuras.h
+
+1555366745 source:c:\users\lucia\onedrive\escritorio\functions\inputs\inputs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1555366745 source:c:\users\lucia\onedrive\escritorio\estructuras\inputs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
 

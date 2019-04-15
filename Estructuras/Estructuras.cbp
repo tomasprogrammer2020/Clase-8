@@ -35,6 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Estructuras.h" />
+		<Unit filename="inputs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inputs.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

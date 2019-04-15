@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Estructuras.h"
+#include "inputs.h"
 #define OCUPADO 1
 #define LIBRE 0
 
@@ -13,6 +14,7 @@ int empleadoBorrar;
 int seguir='s';
 eEmpleado lista[tam];
 inicializarEmpleados(lista, tam);
+int i;
 
 
     do
@@ -38,8 +40,7 @@ inicializarEmpleados(lista, tam);
 
 
             case 3:
-            printf("Ingrese el numero de legajo del empleado que debe ser eliminado\n");
-            scanf("%d", &empleadoBorrar);
+            getInt(&empleadoBorrar,"el legajo del empleado que desea borrar","legajo valido (mayor a 0)", 0, 9999999);
             borrarUno(lista, tam, empleadoBorrar);
             break;
 
@@ -50,7 +51,13 @@ inicializarEmpleados(lista, tam);
             break;
 
             case 5:
-            mostrarLista (lista, tam);
+            for (i=0;i<tam;i++)
+            {
+                if (lista[i].legajo !=-1)
+               {
+                   mostrarUno(lista, i);
+               }
+            }
             break;
 
             case 6:

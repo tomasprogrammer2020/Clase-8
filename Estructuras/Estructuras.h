@@ -18,3 +18,4 @@ void cargarUno (eEmpleado[], int);
 int buscarUno (eEmpleado [], int, int);
 int borrarUno(eEmpleado lista[], int, int);
 void ordenarVector(eEmpleado lista[], int tam);
+void mostrarUno(eEmpleado [], int );
