@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1555330176 source:c:\users\alumno\desktop\c-master\estructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1555355556 source:c:\users\lucia\onedrive\escritorio\estructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Estructuras.h"
+
+1555355636 source:c:\users\lucia\onedrive\escritorio\estructuras\estructuras.c
+	"Estructuras.h"
+	<stdio.h>
+
+1555355046 c:\users\lucia\onedrive\escritorio\estructuras\estructuras.h
+
